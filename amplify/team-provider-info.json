@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ipcheckerclient-dev-41959-authRole",
+            "UnauthRoleArn": "arn:aws:iam::890038612997:role/amplify-ipcheckerclient-dev-41959-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::890038612997:role/amplify-ipcheckerclient-dev-41959-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-ipcheckerclient-dev-41959-deployment",
+            "UnauthRoleName": "amplify-ipcheckerclient-dev-41959-unauthRole",
+            "StackName": "amplify-ipcheckerclient-dev-41959",
+            "StackId": "arn:aws:cloudformation:us-east-1:890038612997:stack/amplify-ipcheckerclient-dev-41959/2bf89440-b461-11ea-8902-0e29088293c9",
+            "AmplifyAppId": "d1mpdat7c1lwph"
+        }
+    }
+}
