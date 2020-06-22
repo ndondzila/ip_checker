@@ -5,6 +5,7 @@ import Auxiliary from './hoc/Auxiliary';
 import GeoIP from './containers/GeoIP';
 import WhoIs from './containers/WhoIs';
 import axios from 'axios';
+import WhoIsContainer from './containers/WhoIsContainer';
 
 class App extends Component {
   constructor(props){
@@ -58,7 +59,6 @@ validateIPorDomainHandler = (event) => {
             this.setState({
               whoIs_data: response
             });
-            console.log(response);
         });
     }
   }
@@ -127,14 +127,14 @@ validateIPorDomainHandler = (event) => {
                 onClick={this.beginAgainHandler}><strong>Reset</strong></button></div>
             
               <div className="App-container">
-                <td className="App-unit">
+                <td className="App-unit App-up">
                   <GeoIP
                     geoIp_data = {this.state.geoIp_data}
                     ></GeoIP></td>
                 <td className="App-unit">
-                  <WhoIs
+                  <WhoIsContainer
                     whoIs_data = {this.state.whoIs_data}
-                    ></WhoIs></td>
+                    ></WhoIsContainer></td>
               </div>
           </Auxiliary>
       </div>

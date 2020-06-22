@@ -54,6 +54,10 @@ hr {
   justify-content: center;
   align-items: center;
 }
+.App-up {
+  vertical-align: top;
+  padding-bottom: 100%;
+}
 
 .App-container {
   height: 100%;
