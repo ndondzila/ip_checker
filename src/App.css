@@ -30,9 +30,35 @@ hr {
 .App-input {
   padding: 1%;
   margin: 2%;
+  width: 30%;
+  text-align: center;
 }
 
 .App-label {
   margin: 2%;
   font-weight: bold;
+}
+
+.App-displayBox {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+
+.App-unit {
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
